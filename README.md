@@ -37,4 +37,4 @@ sudo apt install cscope	#cscope 插件
 cd  ~/.vim/bundle
 git clone https://github.com/scrooloose/nerdtree.git
 ```
-对于需要
+
