@@ -117,13 +117,15 @@ autocmd BufReadPost *.cpp,*.c,*.h,*.cc,*.cxx call tagbar#autoopen()
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
 Plugin 'scrooloose/nerdtree'
 " NetRedTree
-
+map <F3> :NERDTreeMirror <CR> 
+map <F3> :NERDTreeToggle <CR>
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 let NERDTreeWinSize=30
 let NERDTreeShowLineNumbers=5
 let NERDTreeAutoCenter=1
 let NERDTreeShowBookmarks=1
+
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
 " Tools for language rules to check
@@ -142,7 +144,7 @@ let g:ale_c_cppcheck_options = ''
 let g:ale_cpp_cppcheck_options = ''
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
-" Plugin 'Valloric/YouCompleteMe'
+Plugin 'Valloric/YouCompleteMe'
 
 set number
 

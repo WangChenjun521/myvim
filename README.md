@@ -31,4 +31,10 @@ sudo apt install ctags	#ctags 插件
 sudo apt install cscope	#cscope 插件
 
 ```
-
+### 4.安装缺失的插件
+#### 4.1 NERDtree
+```
+cd  ~/.vim/bundle
+git clone https://github.com/scrooloose/nerdtree.git
+```
+对于需要
