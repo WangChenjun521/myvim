@@ -24,6 +24,11 @@ vim ~/.vimrc    #打开文件
 ```
 进入命令行模式，输入 :PluginInstall
 
+说明：这里用到的插件
 
+```
+sudo apt install ctags	#ctags 插件
+sudo apt install cscope	#cscope 插件
 
+```
 
