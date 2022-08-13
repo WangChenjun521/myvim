@@ -142,7 +142,7 @@ let g:ale_c_cppcheck_options = ''
 let g:ale_cpp_cppcheck_options = ''
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
-Plugin 'Valloric/YouCompleteMe'
+" Plugin 'Valloric/YouCompleteMe'
 
 set number
 

@@ -8,10 +8,21 @@ sudo apt install vim
 ### 2.创建文件夹和vimrc文件
 
 ```
-mkdir ~/.vim  # 这里主要用于保存vim的一些插件
+mkdir ~/.vim/bundle  # 这里主要用于保存vim的一些插件
 vi ~/.vimrc   # 这个是vim的主要配置为文件
+```
+### 3.安装插件管理工具
+这里用的是Vundle
 
 ```
+git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
+然后对我的.vimrc文件里需要的插件进行安装
+
+```
+vim ~/.vimrc    #打开文件
+```
+进入命令行模式，输入 :PluginInstall
 
 
 
